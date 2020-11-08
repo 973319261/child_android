@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/style_list_cell_default_white_press_light_gray_selector"
+    android:gravity="center_vertical"
+    android:padding="@dimen/common_8">
+
+    <ImageView
+        android:id="@+id/msg_user_avatar_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/default_user_avatar" />
+
+    <LinearLayout
+        android:id="@+id/msg_user_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_8"
+        android:layout_marginTop="@dimen/common_3"
+        android:layout_toRightOf="@+id/msg_user_avatar_img"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/msg_user_name_tv"
+            style="@style/default_text_view_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="1324-850600"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font16_txt_size" />
+
+        <TextView
+            android:id="@+id/msg_time_tv"
+            style="@style/default_text_view_style"
+            android:text="12:12"
+            android:textColor="@color/lightGray"
+            android:textSize="@dimen/font12_txt_size" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/msg_content_tv"
+        style="@style/default_text_view_style"
+        android:layout_below="@+id/msg_user_time_layout"
+        android:layout_marginLeft="@dimen/common_8"
+        android:layout_marginTop="@dimen/common_3"
+        android:layout_toRightOf="@+id/msg_user_avatar_img"
+        android:maxLines="1"
+        android:text="asasa"
+        android:textSize="@dimen/font14_txt_size" />
+</RelativeLayout>

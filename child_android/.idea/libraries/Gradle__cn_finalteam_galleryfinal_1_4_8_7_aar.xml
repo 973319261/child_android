@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.finalteam:galleryfinal:1.4.8.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0368a2494092e0b509287a87d9fa5042/jetified-galleryfinal-1.4.8.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0368a2494092e0b509287a87d9fa5042/jetified-galleryfinal-1.4.8.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.finalteam/galleryfinal/1.4.8.7/86b91d8ba4a62bf515c0e345aa48cd9f744930de/galleryfinal-1.4.8.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

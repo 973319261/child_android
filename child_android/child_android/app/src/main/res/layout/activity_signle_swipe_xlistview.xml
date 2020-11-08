@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/default_activiy_style">
+
+    <include layout="@layout/navi_top_layout" />
+
+
+    <com.android.widgets.xlistview.XListView
+        android:id="@+id/xlistview"
+        style="@style/default_listview" />
+
+</LinearLayout>

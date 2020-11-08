@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">oChat</string>
+    <!--主页面-->
+    <string name="text_main_message">消息</string>
+    <string name="text_main_contacts">通讯录</string>
+    <string name="text_main_dynamic">朋友圈</string>
+    <string name="text_main_my">我</string>
+    <string name="text_press_exit">再按一次退出程序</string>
+    <!--登录页面-->
+    <string name="text_login_cancel">取消</string>
+    <string name="text_login_protocol">继续表示您同意</string>
+    <string name="text_login_protocol_right">用户协议</string>
+    <string name="text_login_problem">登录遇到问题？</string>
+    <string name="text_login_enter_phone">输入手机号码</string>
+    <string name="text_login_enter_password">输入密码</string>
+    <string name="text_login_submit_enter_account">请输入账户密码</string>
+    <string name="text_login_submit_forgot_left">忘记了？</string>
+    <string name="text_login_submit_forgot_right">找回密码</string>
+    <string name="text_login_issue">登录遇到问题？</string>
+    <!--注册页面-->
+    <string name="text_register_title">手机号注册</string>
+    <string name="text_forgot_title">重置密码</string>
+    <string name="text_register_valid_code">输入验证码</string>
+    <string name="text_register_set_password">设置密码</string>
+    <string name="text_register_valid_code_left">没有收到？</string>
+    <string name="text_register_valid_code_right">重新发送</string>
+    <string name="text_register_valid_code_hint">验证码已发送,请注意查收</string>
+    <!--区域代码页面-->
+    <string name="text_area_code_title">请选择国家和地区</string>
+    <!--通讯录页面-->
+    <string name="text_contacts_add">添加</string>
+    <string name="text_contacts_add_hint">搜索关键字</string>
+    <!--添加好友页面-->
+    <string name="text_friends_add_title">搜索好友</string>
+    <string name="text_friends_add_enter_phone">请输入好友手机号</string>
+    <string name="text_friends_add_user_not_exist">该用户不存在</string>
+    <string name="text_friends_add_search">搜索</string>
+    <!--新的好友-->
+    <string name="text_new_friends_title">新的好友</string>
+    <string name="text_new_friends_apply_time">申请时间: </string>
+    <string name="text_new_friends_add_succeed">操作成功</string>
+    <string name="text_new_friends_consent">同意</string>
+    <string name="text_new_friends_reject">拒绝</string>
+    <!--个人聊天-->
+    <string name="text_chat_send">发送</string>
+    <string name="ic_chat_photo">相册</string>
+    <string name="text_chat_photograph">拍照</string>
+    <string name="text_voice_call">语音通话</string>
+    <string name="text_video_call">视频通话</string>
+    <string name="text_chat_voice_input">语音输入</string>
+    <string name="text_chat_location">位置</string>
+    <!--群聊-->
+    <string name="text_group_chat_title">群聊</string>
+
+    <!--个人信息页面-->
+    <string name="text_friends_info_title">个人信息</string>
+    <string name="text_friends_info_add">添加到通讯录</string>
+    <string name="text_friends_info_delete">删除</string>
+    <string name="text_friends_info_send">发送</string>
+    <string name="text_friends_info_apply_succeed">申请成功</string>
+    <string name="text_friends_info_delete_sure">确定要删除该好友吗？</string>
+    <string name="text_friends_info_delete_succeed">删除成功</string>
+    <!--语言设置-->
+    <string name="text_language_title" translatable="false">语言设置</string>
+    <!--用户主页面-->
+    <string name="text_user_unset">未设置</string>
+    <string name="text_user_account">账号:</string>
+    <string name="text_user_rich_scan">扫一扫</string>
+    <string name="text_user_message">消息设置</string>
+    <string name="text_user_chat">聊天设置</string>
+    <string name="text_user_help">帮助与反馈</string>
+    <string name="text_user_share">分享</string>
+    <string name="text_user_about">关于</string>
+    <string name="text_user_logout">退 出</string>
+    <string name="text_user_logout_sure">确定退出登录吗?</string>
+    <string name="text_user_logout_succeed">退出成功</string>
+    <string name="text_user_logout_title">退出登录</string>
+    <!--编辑用户信息-->
+    <string name="text_user_info_title">编辑资料</string>
+    <string name="text_user_info_nickname">请输入昵称</string>
+    <string name="text_user_info_update_succeed">修改成功</string>
+    <string name="text_user_info_update_failure">修改失败，请稍后再试</string>
+    <string name="text_user_info_nickname_agreed">修改内容与原来的一致</string>
+    <string name="text_user_info_signature">请输入个性签名</string>
+    <string name="text_user_info_sex">请选择性别</string>
+    <string name="text_user_sex_man">男</string>
+    <string name="text_user_sex_woman">女</string>
+    <string name="text_user_info_head_portrait">头像</string>
+    <string name="text_user_info_name">昵称</string>
+    <string name="text_user_info_sexs">性别</string>
+    <string name="text_user_info_signatures">个性签名</string>
+    <!--设置-->
+    <string name="text_language_setting">语言设置</string>
+    <string name="text_follow_system">跟随系统</string>
+    <string name="text_message_prompt_tone">消息提示音</string>
+    <!--其他-->
+
+    <string name="text_send_failed">发送失败</string>
+    <string name="text_whether_resend">是否重新发送？</string>
+    <string name="text_friend_authentication">验证申请</string>
+    <string name="text_is_add_friend">你需要发送验证请求，并在对方通过后才能成为朋友。</string>
+    <string name="text_enable_friend_verification">你还不是对方的朋友，点击</string>
+    <string name="text_enable_friend_verification_bule">发送添加好友申请。</string>
+    <string name="text_logoff_notification">下线通知</string>
+    <string name="text_logoff_notification_content">你的账号在其他设备登录，如果不是你的操作，请及时修改密码。</string>
+    <string name="text_save">保存</string>
+    <string name="text_ok">确定</string>
+    <string name="text_cancel" >取消</string>
+    <string name="xlistview_header_hint_normal">下拉刷新…</string>
+    <string name="xlistview_header_hint_ready">释放刷新…</string>
+    <string name="xlistview_header_hint_loading">加载中...</string>
+    <string name="xlistview_header_last_time">最近更新时间：</string>
+    <string name="xlistview_footer_hint_normal">加载更多</string>
+    <string name="xlistview_footer_hint_ready">释放加载更多...</string>
+    <!--应用权限-->
+    <string name="text_warm_prompt" translatable="false">温馨提示</string>
+    <string name="text_permissions_application" translatable="false">应用权限</string>
+    <string name="text_open" translatable="false">开启</string>
+    <string name="text_permission_device" translatable="false">开启读取设备识别码状态权限\n</string>
+    <string name="text_permissions_storage" translatable="false">开启手机存储权限\n</string>
+    <string name="text_permissions_following" translatable="false">为了给您提供更好的体验，建议您开启以下权限</string>
+
+
+
+</resources>

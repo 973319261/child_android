@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/common_10">
+
+    <TextView
+        android:id="@+id/chat_send_time_tv"
+        style="@style/default_text_view_style"
+        android:text="12:12"
+        android:textColor="@color/lightGray"
+        android:layout_marginBottom="@dimen/common_5"
+        android:textSize="@dimen/font12_txt_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|top">
+
+        <ImageView
+            android:id="@+id/chat_user_avatar_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerInside"
+            android:src="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10"
+            android:layout_marginRight="@dimen/common_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat_user_name_tv"
+                style="@style/default_text_view_style"
+                android:text="1324-850600"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/chat_content_tv"
+                style="@style/default_text_view_style"
+                android:layout_marginTop="@dimen/common_3"
+                android:background="@mipmap/chat_receiver"
+                android:gravity="left|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="共享单车大战打到现在已经渐渐出现了一些疲态，尽管在2017年第二季度开始，各家公司的跑马圈地进入了白热化，但无法掩饰增长率的一路下滑。截止2017年6月份，ofo的环比增长率仅3.1%，而摩拜则只有可怜的1.5%。因此，ofo和摩拜着两家企业合并的可能性比较小，如果合并，摩拜或许会失去掌控权，也会使两家企业的现金流大幅度削减。"
+                android:textSize="@dimen/font14_txt_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

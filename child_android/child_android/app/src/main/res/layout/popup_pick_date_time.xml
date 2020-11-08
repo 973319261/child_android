@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="0.3"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_8"
+        android:paddingLeft="@dimen/common_8"
+        android:paddingRight="@dimen/common_8">
+
+        <TextView
+            android:id="@+id/finish_btn"
+            style="@style/default_text_view_style"
+            android:layout_gravity="right"
+            android:padding="@dimen/common_5"
+            android:text="@string/confirm_txt"
+            android:textColor="@color/app_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wheel_view_height"
+            android:background="@color/white">
+
+            <com.android.widgets.wheel.WheelView
+                android:id="@+id/year"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.9" />
+
+            <TextView
+                style="@style/default_text_view_style"
+                android:layout_gravity="center_vertical"
+                android:text="年"
+                android:textSize="@dimen/font12_txt_size" />
+
+            <com.android.widgets.wheel.WheelView
+                android:id="@+id/month"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7" />
+
+            <TextView
+                style="@style/default_text_view_style"
+                android:layout_gravity="center_vertical"
+                android:text="月"
+                android:textSize="@dimen/font12_txt_size" />
+
+            <com.android.widgets.wheel.WheelView
+                android:id="@+id/day"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7" />
+
+            <TextView
+                style="@style/default_text_view_style"
+                android:layout_gravity="center_vertical"
+                android:text="日"
+                android:textSize="@dimen/font12_txt_size" />
+
+            <com.android.widgets.wheel.WheelView
+                android:id="@+id/hour"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <TextView
+                style="@style/default_text_view_style"
+                android:layout_gravity="center_vertical"
+                android:text="时"
+                android:textSize="@dimen/font12_txt_size" />
+
+            <com.android.widgets.wheel.WheelView
+                android:id="@+id/minute"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5" />
+
+            <TextView
+                style="@style/default_text_view_style"
+                android:layout_gravity="center_vertical"
+                android:text="分"
+                android:textSize="@dimen/font12_txt_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

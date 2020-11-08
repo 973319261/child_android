@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.YangsBryant:DSelectorBryant:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c4e42a1d6f1e9e8809296c796e0d8d9/jetified-DSelectorBryant-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c4e42a1d6f1e9e8809296c796e0d8d9/jetified-DSelectorBryant-1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.YangsBryant/DSelectorBryant/1.0.2/46af785466da04b21e7d1f0f3d439cc14e4d6eff/DSelectorBryant-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

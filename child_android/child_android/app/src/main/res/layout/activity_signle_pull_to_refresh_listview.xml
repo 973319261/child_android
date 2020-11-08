@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_activiy_style"
+    android:background="@color/navi_gray_color">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <com.android.widgets.pullrefresh.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_listview"
+        style="@style/default_listview"
+        android:layout_marginTop="-1dp" />
+
+</LinearLayout>

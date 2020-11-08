@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:alpha="0.3"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_8"
+        android:paddingLeft="@dimen/common_8"
+        android:paddingRight="@dimen/common_8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cancel_btn"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_5"
+                android:text="@string/cancel_txt"
+                android:textColor="@color/dark_gray" />
+
+            <TextView
+                android:id="@+id/title_txt"
+                style="@style/default_text_view_style"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/common_5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font16_txt_size" />
+
+            <TextView
+                android:id="@+id/finish_btn"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_5"
+                android:text="@string/finish_txt"
+                android:textColor="@color/dark_gray" />
+        </LinearLayout>
+
+        <com.android.widgets.wheel.WheelView
+            android:id="@+id/wheelview"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wheel_view_height" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_activiy_style"
+    android:background="@color/navi_gray_color">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/yue_tab_layout0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="1">
+
+            <TextView
+                android:id="@+id/yue_tab_tv0"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="10"
+                android:text="线下约歌"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/yue_tab_line0"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yue_tab_layout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="2">
+
+            <TextView
+                android:id="@+id/yue_tab_tv1"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="20"
+                android:text="线上约歌"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/yue_tab_line1"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="21"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yue_tab_layout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="3">
+
+            <TextView
+                android:id="@+id/yue_tab_tv2"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="30"
+                android:text="声优聊天"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/yue_tab_line2"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="31"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yue_tab_layout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="4">
+
+            <TextView
+                android:id="@+id/yue_tab_tv3"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="40"
+                android:text="视频聊天"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/yue_tab_line3"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="41"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/horizontal_line_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_8"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/sort_price_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="1">
+
+            <TextView
+                android:id="@+id/sort_price_tv"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="10"
+                android:text="价格高低"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/sort_price_line"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sort_distance_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:tag="2">
+
+            <TextView
+                android:id="@+id/sort_distance_tv"
+                style="@style/default_text_view_style"
+                android:padding="@dimen/common_8"
+                android:tag="20"
+                android:text="距离远近"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font14_txt_size" />
+
+            <View
+                android:id="@+id/sort_distance_line"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:background="@color/yellow"
+                android:tag="21"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/horizontal_line_view" />
+
+    <com.android.widgets.pullrefresh.PullToRefreshListView
+        android:id="@+id/pull_to_refresh_listview"
+        style="@style/default_listview"
+        android:background="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/round_corner_shade_no_border_press_style" android:state_pressed="true"/>
+    <item android:drawable="@drawable/round_corner_shade_no_border_press_style" android:state_focused="true"/>
+    <item android:drawable="@drawable/round_corner_shade_no_border_default_style" android:state_pressed="false" />
+
+</selector>

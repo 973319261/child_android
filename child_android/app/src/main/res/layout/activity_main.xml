@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rect_top_line_style"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <FrameLayout
+            android:id="@+id/tab_layout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tab_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/m1"
+                android:text="@string/text_main_message"
+                android:textColor="@color/tab_menu_normal"
+                android:textSize="15sp" />
+
+            <com.android.widgets.CircleImageView
+                android:id="@+id/msg_unread_img"
+                android:layout_width="@dimen/activity_content_padding"
+                android:layout_height="@dimen/activity_content_padding"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginLeft="@dimen/common_20"
+                android:layout_marginTop="@dimen/common_5"
+                android:src="@color/purple_red_color"
+                app:border_color="@color/purple_red_color" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tab_layout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tab_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/m2"
+                android:text="@string/text_main_contacts"
+                android:textColor="@color/tab_menu_normal"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tab_layout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tab_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawablePadding="2dp"
+                android:drawableTop="@mipmap/m3"
+                android:text="@string/text_main_dynamic"
+                android:textColor="@color/tab_menu_normal"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tab_layout4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tab_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@mipmap/m4"
+                android:drawablePadding="2dp"
+                android:text="@string/text_main_my"
+                android:textColor="@color/tab_menu_normal"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

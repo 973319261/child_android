@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">幼教App</string>
+
+    <string name="cancel_txt">取消</string>
+    <string name="skip_txt">跳过</string>
+    <string name="confirm_txt">确定</string>
+    <string name="finish_txt">完成</string>
+    <string name="back_txt">返回</string>
+    <string name="delete_txt">删除</string>
+    <string name="close_txt">关闭</string>
+    <string name="login_hint_txt">手机号码注册登录有助于您快速找到好友</string>
+    <string name="hint_mobile_input_txt">输入手机号码</string>
+    <string name="hint_password_input_txt">输入登录密码</string>
+    <string name="login_protocol_left_txt">继续表示您同意</string>
+    <string name="login_protocol_right_txt">用户协议</string>
+    <string name="login_problem_txt">登录遇到问题？</string>
+    <string name="login_use_wechat">用微信登录</string>
+    <string name="login_forgot_pwd_left_txt">忘记了？</string>
+    <string name="login_forgot_pwd_right_txt">找回密码</string>
+    <string name="login_mobile_pwd_left_txt">输入账户</string>
+    <string name="login_mobile_pwd_right_txt">的密码</string>
+    <string name="reg_title_txt">手机号注册</string>
+    <string name="reg_valid_code_placeholder_txt">输入短信验证码</string>
+    <string name="reg_password_placeholder_txt">设置登录密码</string>
+    <string name="reg_valid_code_hint_left_txt">没有收到？</string>
+    <string name="reg_valid_code_hint_right_txt">重新发送</string>
+
+    <string name="forgot_pwd_title_txt">忘记密码</string>
+    <string name="profile_complete_title_txt">完善资料</string>
+    <string name="profile_select_birthday_txt">点击选择生日期</string>
+    <string name="profile_nickname_txt">输入昵称</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新…</string>
+    <string name="xlistview_header_hint_ready">释放刷新…</string>
+    <string name="xlistview_header_hint_loading">加载中...</string>
+    <string name="xlistview_header_last_time">最近更新时间：</string>
+    <string name="xlistview_footer_hint_normal">加载更多</string>
+    <string name="xlistview_footer_hint_ready">释放加载更多...</string>
+</resources>

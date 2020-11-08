@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/default_activiy_style">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <FrameLayout style="@style/default_activiy_style">
+
+        <ListView
+            android:id="@+id/listview"
+            style="@style/default_listview"
+            android:descendantFocusability="afterDescendants" />
+
+        <com.android.widgets.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="25dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="45dp" />
+    </FrameLayout>
+
+</LinearLayout>

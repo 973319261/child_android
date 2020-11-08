@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background">
+
+    <TextView
+        android:id="@+id/login_cancel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/navi_top_layout_height"
+        android:layout_alignParentRight="true"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:padding="@dimen/common_8"
+        android:text="@string/text_login_cancel"
+        android:textColor="@color/lightwhite"
+        android:textSize="@dimen/font16_txt_size" />
+
+    <TextView
+        android:id="@+id/login_hint_tv"
+        style="@style/default_text_view_style"
+        android:layout_below="@+id/login_cancel_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/lightwhite"
+        android:textSize="@dimen/font14_txt_size" />
+
+    <LinearLayout
+        android:id="@+id/login_mobile_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_hint_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_20"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/login_mobile_area_code_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/sanjiao"
+            android:text="+86"
+            android:textColor="@color/lightwhite"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/login_mobile_et"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/text_login_enter_phone"
+            android:inputType="phone"
+            android:padding="@dimen/common_5"
+            android:textColor="@color/lightwhite"
+            android:textColorHint="@color/lightgray"
+            android:textCursorDrawable="@drawable/login_edittext_color_cursor"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/login_protocols_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_mobile_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_90"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/text_login_protocol"
+            android:textColor="@color/lightwhite"
+            android:textSize="@dimen/font14_txt_size" />
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/text_login_protocol_right"
+            android:textColor="@color/purple_red_color"
+            android:textSize="@dimen/font14_txt_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/login_next_step_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_protocols_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/next_step_arrow_grey" />
+
+    <TextView
+        android:id="@+id/login_question_tv"
+        style="@style/default_text_view_style"
+        android:layout_below="@+id/login_next_step_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:text="@string/text_login_issue"
+        android:textColor="@color/purple_red_color"
+        android:textSize="@dimen/font14_txt_size" />
+
+</RelativeLayout>

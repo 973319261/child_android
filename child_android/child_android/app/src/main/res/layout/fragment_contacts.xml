@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <FrameLayout style="@style/default_activiy_style">
+
+        <ListView
+            android:id="@+id/listview"
+            style="@style/default_listview"
+            android:background="@color/white" />
+
+        <com.android.widgets.SideBar
+            android:id="@+id/sideBar"
+            android:layout_width="25dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="50dp"
+            android:paddingBottom="@dimen/common_10" />
+    </FrameLayout>
+</LinearLayout>

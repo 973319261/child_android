@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_10"
+        android:background="@drawable/round_corner_shade_no_border_default_style"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/contact_search_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:layout_marginRight="5dp"
+            android:scrollHorizontally="true"
+            android:maxLines="1"
+            android:textSize="12dp"
+            android:hint="@string/text_contacts_add_hint"/>
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:background="@color/colorGray"/>
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_search_gray"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/contact_new_friend_tv"
+        style="@style/default_edit_text_style"
+        android:background="@drawable/style_list_cell_default_white_press_light_gray_selector"
+        android:drawableLeft="@mipmap/ic_new_friend"
+        android:drawablePadding="@dimen/common_5"
+        android:text="@string/text_new_friends_title"
+        android:textColor="@color/black" />
+
+    <View style="@style/horizontal_line_view" />
+
+    <TextView
+        android:id="@+id/contact_chat_tv"
+        style="@style/default_edit_text_style"
+        android:layout_marginBottom="@dimen/common_10"
+        android:background="@drawable/style_list_cell_default_white_press_light_gray_selector"
+        android:drawableLeft="@mipmap/ic_group_chat"
+        android:drawablePadding="@dimen/common_5"
+        android:text="@string/text_group_chat_title"
+        android:textColor="@color/black" />
+</LinearLayout>
+

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_background">
+
+    <ImageView
+        android:id="@+id/login_back_img"
+        android:layout_width="@dimen/navi_top_layout_height"
+        android:layout_height="@dimen/navi_top_layout_height"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:src="@mipmap/navi_back" />
+
+    <LinearLayout
+        android:id="@+id/login_mobile_title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_back_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_90"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/login_mobile_pwd_left_txt"
+            android:textColor="@color/lightwhite"
+            android:textSize="@dimen/font14_txt_size" />
+
+        <TextView
+            android:id="@+id/login_mobile_tv"
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="1230128435"
+            android:textColor="@color/purple_red_color"
+            android:textSize="@dimen/font14_txt_size" />
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/login_mobile_pwd_right_txt"
+            android:textColor="@color/lightwhite"
+            android:textSize="@dimen/font14_txt_size" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/login_password_et"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_mobile_title_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_20"
+        android:background="@null"
+        android:hint="@string/hint_password_input_txt"
+        android:inputType="textPassword"
+        android:padding="@dimen/common_5"
+        android:textColor="@color/lightwhite"
+        android:textColorHint="@color/lightgray"
+        android:textCursorDrawable="@drawable/login_edittext_color_cursor"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:id="@+id/login_forgot_password_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password_et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_90"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:text="@string/login_forgot_pwd_left_txt"
+            android:textColor="@color/lightwhite"
+            android:textSize="@dimen/font14_txt_size" />
+
+        <TextView
+            style="@style/default_text_view_style"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="@string/login_forgot_pwd_right_txt"
+            android:textColor="@color/purple_red_color"
+            android:textSize="@dimen/font14_txt_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/login_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_forgot_password_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/next_step_arrow_grey" />
+</RelativeLayout>

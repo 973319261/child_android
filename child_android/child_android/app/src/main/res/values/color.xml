@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appTextBlue">#28a6ff</color>
+    <color name="lightgray">#bfbfbf</color>
+    <color name="clear">#00000000</color>
+    <color name="frame_background_color">#E1E1E1</color>
+    <color name="diliver_color">#e0e0e0</color>
+    <color name="border_content_color">#FFF8F8F8</color>
+    <color name="edit_sign_content_color">#FFFDFCF3</color>
+    <color name="line_color">#D6D6D6</color>
+    <color name="lightwhite">#f3f5f6</color>
+    <color name="yellow">#FBC616</color>
+    <color name="gray_color">#333</color>
+    <color name="num_yellow">#F9B236</color>
+    <color name="add_fuel_text_color">#59565d</color>
+    <color name="top_gray">#B7B7B7</color>
+    <color name="progress_bg_color">#526891</color>
+    <color name="progress_dialog_bg">#2A3458</color>
+    <color name="progress_dialog_cancel_btn">#5B6280</color>
+    <color name="txt_black_color">#202020</color>
+    <color name="suggestion_bg_color">#FAD3DA</color>
+    <color name="food_top_bg">#FDC05E</color>
+    <color name="food_category_item_txt_color">#86603C</color>
+    <color name="common_bg_btn_disable">#ffbbbbbb</color>
+    <color name="common_bg_search_btn_pressed">#ff00688B</color>
+    <color name="common_bg_search_btn_normal">#ff3b86c4</color>
+    <color name="dark_gray">#686868</color>
+    <color name="darkblue">#ff09679b</color>
+    <color name="lightblue">#6da6fb</color>
+    <color name="app_color">#5abdb9</color>
+    <color name="purple_red_color">#e25b64</color>
+
+    <color name="btn_blue">#37B5F9</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="index_btn_color">#EAEAEB</color>
+    <color name="bg_color">#ebebeb</color>
+    <color name="light_orange">#E6733A</color>
+    <color name="green">#3bb968</color>
+    <color name="red">#ffff0000</color>
+    <color name="light_red">#ef5056</color>
+    <color name="gray">#e1e1e1</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="light">#ffdedede</color>
+    <color name="link">#ff0b3ea6</color>
+    <color name="lightGray">#B8B8B8</color>
+    <color name="transparent">#00000000</color>
+    <color name="store_color">#4CABAF</color>
+    <color name="pink_color">#cb3863</color>
+    <color name="navi_gray_color">#EAEBEC</color>
+
+    <color name="tab_menu_normal">#707070</color>
+    <color name="tab_menu_selected">#e25b64</color>
+
+</resources>

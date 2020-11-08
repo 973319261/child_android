@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/default_activiy_style">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_20"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/common_10">
+
+        <ImageView
+            android:id="@+id/user_avatar_img"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="centerInside"
+            android:src="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_10"
+            android:layout_marginRight="@dimen/common_10"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name_tv"
+                style="@style/default_text_view_style"
+                android:text="1324-850600"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font16_txt_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/user_apply_add_buddy_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_20"
+        android:layout_marginRight="@dimen/common_20"
+        android:layout_marginTop="@dimen/common_10"
+        android:background="@drawable/round_corner_purple_red_btn_style"
+        android:padding="@dimen/common_10"
+        android:text="添加好友"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font16_txt_size" />
+
+    <Button
+        android:id="@+id/user_remove_buddy_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_20"
+        android:layout_marginRight="@dimen/common_20"
+        android:layout_marginTop="@dimen/common_10"
+        android:background="@drawable/round_corner_purple_red_btn_style"
+        android:padding="@dimen/common_10"
+        android:text="删除好友"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font16_txt_size" />
+
+    <Button
+        android:id="@+id/user_send_msg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_20"
+        android:layout_marginRight="@dimen/common_20"
+        android:layout_marginTop="@dimen/common_10"
+        android:background="@drawable/round_corner_green_btn_style"
+        android:padding="@dimen/common_10"
+        android:text="发送消息"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font16_txt_size" />
+</LinearLayout>

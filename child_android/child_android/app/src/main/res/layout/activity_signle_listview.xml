@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/default_activiy_style">
+
+    <include layout="@layout/navi_top_layout" />
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/default_listview" />
+</LinearLayout>

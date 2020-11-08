@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/default_activiy_style">
+
+
+    <include layout="@layout/navi_top_layout" />
+
+    <LinearLayout
+        android:id="@+id/chat_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_gray"
+        android:padding="@dimen/common_8">
+
+        <EditText
+            android:id="@+id/chat_content_et"
+            style="@style/default_edit_text_style"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner_shade_default_style"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/chat_send_btn"
+            style="@style/default_text_view_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_8"
+            android:background="@drawable/round_corner_purple_red_btn_style"
+            android:gravity="center"
+            android:paddingBottom="@dimen/common_5"
+            android:paddingLeft="@dimen/common_10"
+            android:paddingRight="@dimen/common_10"
+            android:paddingTop="@dimen/common_5"
+            android:text="发送"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        style="@style/default_listview"
+        android:layout_above="@+id/chat_bottom_layout"
+        android:layout_below="@+id/navi_top_bg_layout"
+        android:background="@color/white"
+        android:divider="@color/transparent"
+        android:transcriptMode="alwaysScroll" />
+    <!--android:stackFromBottom="true"-->
+
+</RelativeLayout>

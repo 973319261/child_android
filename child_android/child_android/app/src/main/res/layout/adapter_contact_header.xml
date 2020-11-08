@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <com.android.widgets.ClearableEditText
+        android:id="@+id/contact_search_et"
+        style="@style/default_edit_text_style"
+        android:layout_margin="@dimen/common_10"
+        android:background="@drawable/round_corner_shade_no_border_default_style"
+        android:hint="搜索关键字"
+        android:padding="@dimen/common_10" />
+
+    <TextView
+        android:id="@+id/contact_new_friend_tv"
+        style="@style/default_edit_text_style"
+        android:background="@drawable/style_list_cell_default_white_press_light_gray_selector"
+        android:drawableLeft="@mipmap/icon_friend"
+        android:drawablePadding="@dimen/common_5"
+        android:text="新的好友"
+        android:textColor="@color/black" />
+
+    <View style="@style/horizontal_line_view" />
+
+    <TextView
+        android:id="@+id/contact_chat_tv"
+        style="@style/default_edit_text_style"
+        android:layout_marginBottom="@dimen/common_10"
+        android:background="@drawable/style_list_cell_default_white_press_light_gray_selector"
+        android:drawableLeft="@mipmap/icon_chat"
+        android:drawablePadding="@dimen/common_5"
+        android:text="群聊"
+        android:textColor="@color/black" />
+</LinearLayout>
+
